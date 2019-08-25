@@ -30,5 +30,3 @@ def test():
     fileObj = FileClient(path)
     fileObj.writeLine("test")
     fileObj.close()
-
-test()
